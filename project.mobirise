@@ -49,7 +49,7 @@
         "title": "Home",
         "meta_descr": "",
         "header_custom": "",
-        "footer_custom": "",
+        "footer_custom": "<script type=\"text/javascript\">\n                                (function(d, a) {\n                                    var h = d.getElementsByTagName(\"head\")[0], p = d.location.protocol, s;\n                                    wl_ef_uid = a;\n                                    s = d.createElement(\"script\");\n                                    s.type = \"text/javascript\";\n                                    s.charset = \"utf-8\";\n                                    s.async = true;\n                                    s.defer = true;\n                                    s.src = \"//app.wishloop.com/js/ef_embed.min.js\";\n                                    h.appendChild(s);\n                                })(document, '3534');\n                            </script> ",
         "html_before": ""
       },
       "components": [
@@ -552,9 +552,11 @@
             "background-color": "@bgColor"
           },
           "_name": "content8",
-          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#efefef\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-7\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"index.html#pricing-tables2-6\">COMANDA ACUM</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#efefef\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-7\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"index.html#pricing-tables2-6\">COMANDA ACUM</a></div>\n            </div>\n        </div>\n    </div>\n    <a href='#' data-campaign_id='64122' data-trigger='click' class='efbtn efbtn-default efbtn-lg efbtn-danger  '>Click Me Now!</a>\n</section>",
           "_cid": "qtuOjRw1bH",
           "_anchor": "content8-g",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
           "_protectedParams": [],
           "_global": false,
           "_once": false,
